@@ -1,0 +1,115 @@
+body{
+    background-color: #71A3D5;
+}
+
+
+
+.containerForm{
+    height: 550px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;  
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 120px;
+    border-radius:10px ;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0, 0.2);
+}
+
+#logo{
+    height: 200px;
+    margin-bottom: -120px;
+    position: relative;
+    top: -90px; 
+}
+
+#labeluser{
+    position: relative;
+    margin-right: 240px;
+    top: -4px;
+    color: rgb(90, 90, 90);
+}
+
+#labelpassword{
+    position: relative;
+    margin-right: 250px;
+    top: -4px;
+    color: rgb(90, 90, 90);
+}
+
+/*
+#userName{
+    width: 340px;
+    height: 35px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 12px;
+}
+
+
+/*
+#userPassword{
+    width: 340px;
+    height: 35px;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 12px;
+}
+*/
+
+
+#btnLogin{
+    width: 358px;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: rgb(226, 84, 129);
+    border: none;
+    color: white ;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0, 0.3);
+}
+
+.loginBtn:focus{
+    outline: none;
+}
+
+#account{
+    font-size: 1rem;
+    position: relative;
+    right: 70px;
+}
+
+#accountRegister{
+    color: blue;
+    cursor: pointer;
+}
+
+.inputsLogin:focus{
+    outline: 2px rgb(226, 84, 129) solid;
+    
+}
+
+.inputsLogin:focus-visible{
+    border: none ;
+}
+
+
+.inputsLogin{
+    width: 340px;
+    height: 35px;
+    font-size: 1.2rem;
+    padding-left: 12px;
+    border-radius: 10px;
+    border: solid 1px;
+    margin-bottom: 30px;
+    position: relative;
+}

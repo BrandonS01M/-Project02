@@ -1,0 +1,155 @@
+.containerBusRegister{
+    height: 800px;
+    width: 700px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 7px 1px rgba(0,0,0, 0.3);
+}
+
+.form_Bus1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(90,90,90);
+    
+}
+
+#logoBus{
+    height: 200px;
+    position: relative;
+    top: -10px;
+    right: 20%;
+    margin-bottom: -80px;
+}
+
+.inputsForm1{
+    width: 240px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
+    margin: 0px 20px 0px;
+    margin-bottom: -20px;
+    padding: 12px;
+    font-size: 1.4rem;
+    position: relative;
+    top: -30px;
+}
+
+#numberSeat{
+    position: relative;
+    top: -25px;
+}
+
+#numberseats{
+    position: relative;
+    top: -5px;
+}
+
+#dateRe{
+    
+}
+
+.inputsForm1:focus{
+    outline: 2px rgb(226, 84, 129) solid;
+}
+
+.inputsForm1:focus-visible{
+    border: none;
+}
+.labelForm1{
+    position: relative;
+    top: -10px;
+    right: 35px;
+    font-size: 1.4rem;
+    
+}
+
+.con1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buskey{
+    position: relative;
+    right: 80px;
+}
+
+#busplate{
+    position: relative;
+    right: 70px;
+}
+
+.form_Bus2{
+    width: 100%;
+    height: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-top: -30px;
+}
+
+.inputsForm2{
+    width: 78%;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.inputsForm2:focus{
+    outline: 2px rgb(226, 84, 129) solid;
+}
+
+.inputsForm2:focus-visible{
+    border: none;
+}
+
+.labelform2{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: rgb(90,90,90);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; }
+
+#type{
+    position: relative;
+    right: 35%;
+}
+
+#dName{
+    position: relative;
+    right: 29%;
+}
+
+#lNumber{
+    position: relative;
+    right: 27%;
+}
+
+.btnBusRegister{
+    width: 82%;
+    height: 50px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(226, 84, 129);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0, 0.3);
+}
+
+.btnBusRegister:focus{
+    outline: none;
+}

@@ -1,0 +1,79 @@
+.containerFormRegister{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 4px 7px 1px rgba(0,0,0, 0.3);
+    border-radius: 10px;
+}
+
+.containerFormRegister .labelForInput{
+    
+    position: relative;
+    right: 30%;
+    font-size: 1.3rem;
+    color: rgb(90, 90, 90);
+    margin-bottom: 5px;
+}
+
+.inputsText{
+    width: 350px;
+    height: 35px;
+    padding-left: 12px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: solid 1px;
+    margin-bottom: 18px;
+}
+
+#passregister{
+    position: relative;
+    left: -27%;
+}
+
+#userregister{
+    position: relative;
+    left: -27%;
+}
+
+#emailregister{
+    position: relative;
+    left: -29%;
+}
+
+#btnRegister{
+    width: 368px;
+    font-size: 1.2rem;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(226, 84, 129);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0, 0.3);
+}
+
+.registerBtn:focus{
+    outline: none;
+}
+#logoRegister{
+    position: relative;
+    top: -100px;
+    height: 70px;
+    margin-bottom: -140px;
+    height: 200px;
+}
+
+.inputsText:focus{
+    outline: 2px rgb(226, 84, 129) solid;
+}
+
+.inputsText:focus-visible{
+    border: none;
+}
