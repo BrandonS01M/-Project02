@@ -36,7 +36,8 @@ function FormBusRegister() {
       .then((data) => {
       
         if(data.status === true){
-            navigate("/");
+            console.log("Creado exitosamente");
+            alert("la Alta fue Exitosa");
           }
       });
     }
@@ -59,7 +60,7 @@ function FormBusRegister() {
                                 <p htmlFor="" id='numberseats' className='labelForm1'>Number of Seats</p>
                                 <input type="text" className='inputsForm1' id='numberSeat' name='numasientos'/>
                                 <p htmlFor="" id='date' className='labelForm1'>Registratio Date</p>
-                                <input type="text" className='inputsForm1' id='dateRe' name='fecha'/>
+                                <input type="date" className='inputsForm1' id='dateRe' name='fecha'/>
                             </div>
                         </div>
                         <div className="form_Bus2">

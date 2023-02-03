@@ -51,16 +51,16 @@ function FormRegister() {
                 <form ref={Form}>
                     <div className="containerFormRegister">
                         <img src={Logo} alt="logo" id='logoRegister'/>
-                        <label htmlFor="" className='labelForInput' id='nameregister' >Name</label>
+                        <label htmlFor="" className='labelForInput' id='nameregister' required>Name</label>
                         <input type="text" className="inputsText" name="nombre"/>
 
-                        <label htmlFor="" className='labelForInput' id='emailregister' >E-mail</label>
+                        <label htmlFor="" className='labelForInput' id='emailregister' required>E-mail</label>
                         <input type="email" className="inputsText" name="correo"/>
 
-                        <label htmlFor="" className='labelForInput' id='userregister' >Username</label>
+                        <label htmlFor="" className='labelForInput' id='userregister' required>Username</label>
                         <input type="text" className="inputsText" name="usuario"/>
 
-                        <label htmlFor="" className='labelForInput' id='passregister' >Password</label>
+                        <label htmlFor="" className='labelForInput' id='passregister' required>Password</label>
                         <input type="password" className="inputsText" name="contrasenia"/>
 
                         <button id='btnRegister' className='registerBtn' onClick={handlerClick}>Register</button>

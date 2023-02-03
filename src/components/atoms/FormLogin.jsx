@@ -33,7 +33,7 @@ function FormLogin() {
   
         .then((data) => {
           if(data.status === true){
-            navigate("/register");
+            navigate("/busregister");
           }else{
             alert("Datos incorrectos")
           }
@@ -50,13 +50,13 @@ function FormLogin() {
                     <img src={Logo} alt="logo" id='logo'/>
                     
                     <label htmlFor="userName" id='labeluser'>Username</label>
-                    <input type="text" id="userName" className='inputsLogin' name='usuario'/>
+                    <input type="text" id="userName" className='inputsLogin' name='usuario' required/>
                     
                     <label htmlFor="userPassword" id='labelpassword' className='inputs'>Password</label>
-                    <input type="password" id="userPassword" className='inputsLogin' name='contrasenia'/>
+                    <input type="password" id="userPassword" className='inputsLogin' name='contrasenia' required/>
                     
 
-                    <button id="btnLogin" className='loginBtn' >Login</button>
+                    <button id="btnLogin" className='loginBtn' onClick={handlerClick}>Login</button>
 
                     <p id='account'>Don't have an account? <Link to="/Register" id='accountRegister'>Singup</Link></p>
                 </div>
